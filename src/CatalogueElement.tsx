@@ -12,8 +12,10 @@ function CatalogueElement(props: {skinName: string, imgBase64: string}) {
 
     return (
         <button className="catalogueElement">
-            <div className="catalogueElementImageContainer" style={imgStyle}>
-                
+            <div className="catalogueElementImageContainer">
+                <div>
+                    <img src={imgSrc} className="catalogueElementImage" alt="img"></img>
+                </div>
             </div>
             <p style={{flex: 1}}>{props.skinName}</p>
         </button>
