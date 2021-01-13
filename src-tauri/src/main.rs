@@ -3,8 +3,6 @@
     windows_subsystem = "windows"
 )]
 
-use std::collections::HashMap;
-
 use elem_type::ElemType;
 use err::InvalidElemTypeError;
 use tauri::Webview;
@@ -33,7 +31,7 @@ fn main() {
         .run();
 }
 
-fn handle_commands(command: Cmd, webview: &mut Webview, arg: &str) -> Result<(), String> {
+fn handle_commands(command: Cmd, webview: &mut Webview, _arg: &str) -> Result<(), String> {
     use cmd::Cmd::*;
     match command {
         // definitions for your custom commands from Cmd here
