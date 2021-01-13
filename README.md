@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Skin Mixer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A skin mixing application for [osu](https://osu.ppy.sh) made with [React](https://reactjs.org) and [Tauri](https://tauri.studio), written mostly in [TypeScript](https://www.typescriptlang.org) and [Rust](https://www.rust-lang.org)
 
 ## Available Scripts
 
